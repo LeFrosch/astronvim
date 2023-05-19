@@ -1,4 +1,13 @@
 return {
+  {
+    "Pocco81/auto-save.nvim",
+    config = function()
+      require("auto-save").setup {
+
+      }
+    end,
+    event = "User AstroFile"
+  },
   -- You can also add new plugins here as well:
   -- Add plugins, the lazy syntax
   -- "andweeb/presence.nvim",
